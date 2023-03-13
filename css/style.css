@@ -1036,9 +1036,19 @@ hr{
     font-weight: 500;
     text-transform: uppercase;
    }
-   #myBtn{
+   #myBtn {
     display: none;
-   }
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: var(--jljaune);
+    color: var(--jljaune);
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 50px;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 10px var(--bg-color2);
+}
    .soutien-desc h3{
     font-size: 15px;
    }
@@ -1054,7 +1064,7 @@ hr{
    }
    .wrapper{
     position: relative;
-    right: 85px;
+    right: 225px;
    }
    .footer-col {
     width: 60%;
@@ -1079,8 +1089,8 @@ hr{
         max-width: 100%;
     }
     #prenav-logo .flex-row img{
-        height: 60px;
-        width: 140px;
+        height: 80px;
+        width: 150px;
         position: relative;
         right: 500px;
         top: 50px;
@@ -1119,7 +1129,7 @@ hr{
         width: 165px;
     }
     .testimonials-text{
-        background: var(--jljaune);    
+        background: var(--jlred);    
     }
     .user-text p{
         font-size: 10px;
